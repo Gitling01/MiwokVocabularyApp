@@ -5,10 +5,6 @@ import android.widget.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.android.miwok.R;
-import com.example.android.miwok.Word;
-import com.example.android.miwok.WordAdapter;
-
 import java.util.ArrayList;
 
 public class ColorsActivity extends AppCompatActivity {
@@ -20,16 +16,16 @@ public class ColorsActivity extends AppCompatActivity {
 
         ArrayList<Word> words = new ArrayList<Word>();
 
-        words.add(new Word("weṭeṭṭi","red" ));
-        words.add(new Word("chokokki","green"));
-        words.add(new Word("ṭakaakki","brown"));
-        words.add(new Word("ṭopoppi","gray"));
-        words.add(new Word("kululli","black"));
-        words.add(new Word("kelelli","white"));
-        words.add(new Word("ṭopiisә","dusty yellow"));
-        words.add(new Word("chiwiiṭә","mustard yellow"));
+        words.add(new Word("weṭeṭṭi", "red", R.drawable.color_red));
+        words.add(new Word("chokokki", "green", R.drawable.color_green));
+        words.add(new Word("ṭakaakki", "brown", R.drawable.color_brown));
+        words.add(new Word("ṭopoppi", "gray", R.drawable.color_gray));
+        words.add(new Word("kululli", "black", R.drawable.color_black));
+        words.add(new Word("kelelli", "white", R.drawable.color_white));
+        words.add(new Word("ṭopiisә", "dusty yellow", R.drawable.color_dusty_yellow));
+        words.add(new Word("chiwiiṭә", "mustard yellow", R.drawable.color_mustard_yellow));
 
-        WordAdapter adapter = new WordAdapter(this, words);
+        WordAdapter adapter = new WordAdapter(this, words, R.color.category_colors);
         ListView listView = findViewById(R.id.list);
         listView.setAdapter(adapter);
 
