@@ -59,4 +59,14 @@
         <item name="android:textSize">18sp</item>
     </style>
 
+    <style name="CategoryTabStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="tabMode">fixed</item>
+        <item name="tabBackground">@color/tab_background</item>
+        <item name="tabTextColor">@color/tab_text_unhighlighted</item>
+        <item name="tabSelectedTextColor">@color/tab_text</item>
+        <item name="tabIndicatorColor">@color/tab_indicator</item>
+    </style>
+
 </resources>

@@ -19,6 +19,7 @@ public class WordAdapter extends ArrayAdapter<Word> {
 
     private int mColorResourceId;
 
+
     /* custom constructor
      ** @param context: the current context, used to inflate the layout file
      * @param objects: the list of Word objects to display in a list
@@ -27,6 +28,8 @@ public class WordAdapter extends ArrayAdapter<Word> {
         super(context, 0, objects);
 
         mColorResourceId = colorResourceId;
+
+
     }
 
 
