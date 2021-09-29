@@ -1,5 +1,5 @@
 # MiwokVocabularyApp
-A simple project app created alongside Udacity's "Android Basics" course
+A Miwok vocabulary app with spoken pronunciations -- created alongside Udacity's "Android Basics" course 
 
 ## Screenshots
 <p float="left">
