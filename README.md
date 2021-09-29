@@ -12,14 +12,8 @@ A simple project app created alongside Udacity's "Android Basics" course
 * An app that helps you learn the vocabulary of the Miwok tribe. Each word can be clicked to hear the pronunciation.
 * Two versions: one where you click and one where you swipe between categories
 
-#### Frameworks
-* Framework 1
-* Framework 2
 
 ## What I Learned
 * Touch animations to improve user experience
 * Resource allocation for sound
 * Best practices for working with design specs and collaborating with a designer
-
-## How To Use
-* Clone the project and run it on _____ or above
