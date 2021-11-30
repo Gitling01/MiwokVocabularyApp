@@ -12,8 +12,16 @@ A Miwok vocabulary app with spoken pronunciations -- created alongside Udacity's
 * An app that helps you learn the vocabulary of the Miwok tribe. Each word can be clicked to hear the pronunciation.
 * Two versions: one where you click and one where you swipe between categories
 
-
 ## What I Learned
 * Touch animations to improve user experience
 * Resource allocation for sound
 * Best practices for working with design specs and collaborating with a designer
+
+## License
+This project was created alongside Udacity's "Android Basics" course and uses and is based on existing code which has the following restrictions:
+
+Copyright (C) 2016 The Android Open Source Project
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License here.
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
